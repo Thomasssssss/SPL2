@@ -1,6 +1,8 @@
 import random
 zahlen = []
-for i in range(0,10):
+anzahlWuerfe = input("Wie oft soll gewürfelt weden?")
+anzahlWuerfe = int(anzahlWuerfe)
+for i in range(0,anzahlWuerfe):
     wurf = random.randint(1,6)
     zahlen.append(wurf)
     print(wurf, end="...")
